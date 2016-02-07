@@ -2,7 +2,14 @@ body{
 	background-color: #CCC;
 }
 
-div#page{
+div#header{
+	position: relative;
+	height: 150px;
+}
+
+div#content{
+	position: relative;
+	padding-left: 20px;
 }
 
 div#logo{
@@ -13,6 +20,11 @@ div#logo{
 div#title{
 	font-family: Arial;
 	font-size: 32px;
+}
+
+div#title a{
+	text-decoration: none;
+	color: black;
 }
 
 div#menu{
@@ -26,13 +38,38 @@ div#menu a{
 	color: white;
 }
 
-div#about_us,
-div#products,
-div#promotions,
-div#order_now
+div#menu_current_item
+{
+	float: left;
+	background-color: #648;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+div#menu_active_item
 {
 	float: left;
 	background-color: #864;
 	border: 1px solid #CCC;
 	padding: 5px;
+}
+
+div#menu_inactive_item
+{
+	float: left;
+	background-color: #888;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#product_table {
+	max-width: 570px;
+}
+
+#product_table td{
+	padding: 20px;
+}
+
+#product_table tr{
+	padding: 10px;
 }
