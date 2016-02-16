@@ -1,1 +1,44 @@
-TODO
+<html>
+<head>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+	<script type = "text/javascript" src="js/displaytime.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="img/logo.png"></a>
+		</div>
+		<div id="title">
+			<a href="index.html">MY CHOCOLATE COMPANY</a>
+		</div>
+		<div id="menu">
+			<div id="menu_inactive_item">
+				<a href="">ABOUT US</a>
+			</div>
+			<div id="menu_active_item">
+				<a href="products.html">PRODUCTS</a>
+			</div>
+			<div id="menu_current_item">
+				<a href="promotions.html">PROMOTIONS</a>
+			</div>
+			<div id="menu_inactive_item">
+				<a href="">ORDER NOW</a>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		DATE AND TIME INFORMATION
+		<br/>
+		<form id="timeForm" name="timeForm">
+			<input type="text" name="yearBox">
+			<input type="text" name="dayBox">
+			<input type="text" name="monthBox">
+			<input type="text" name="hourBox">
+			<input type="text" name="minuteBox">
+		</form>
+		<input type="button" value="Check Promotions!"
+			onclick ="displayTime(document)" /> <br/>
+	</div>
+</body>
+</html>
