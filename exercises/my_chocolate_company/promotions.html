@@ -1,7 +1,7 @@
 <html>
 <head>
 	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all">
-	<script type = "text/javascript" src="js/displaytime.js"></script>
+	<script type = "text/javascript" src="js/displayPromotion.js"></script>
 </head>
 
 <body>
@@ -28,17 +28,13 @@
 		</div>
 	</div>
 	<div id="content">
-		DATE AND TIME INFORMATION
-		<br/>
-		<form id="timeForm" name="timeForm">
-			<input type="text" name="yearBox">
-			<input type="text" name="dayBox">
-			<input type="text" name="monthBox">
-			<input type="text" name="hourBox">
-			<input type="text" name="minuteBox">
-		</form>
-		<input type="button" value="Check Promotions!"
-			onclick ="displayTime(document)" /> <br/>
+		<div id="current_promotion">
+		</div>
+		<div id="text_promotion">
+		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	showCurrentPromotion(document);
+</script>
 </html>
