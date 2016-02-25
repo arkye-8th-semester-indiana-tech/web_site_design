@@ -2,43 +2,43 @@ body{
 	background-color: #CCC;
 }
 
-div#header{
+#header{
 	position: relative;
 	height: 150px;
 }
 
-div#content{
+#content{
 	position: relative;
 	padding-left: 20px;
 }
 
-div#logo{
+#logo{
 	float: left;
 	padding: 10px
 }
 
-div#title{
+#title{
 	font-family: Arial;
 	font-size: 32px;
 }
 
-div#title a{
+#title a{
 	text-decoration: none;
 	color: black;
 }
 
-div#menu{
+#menu{
 	font-family: Arial;
 	float: center;
 	margin: 10px;
 }
 
-div#menu a{
+#menu a{
 	text-decoration: none;
 	color: white;
 }
 
-div#menu_current_item
+#menu_current_item
 {
 	float: left;
 	background-color: #648;
@@ -46,7 +46,7 @@ div#menu_current_item
 	padding: 5px;
 }
 
-div#menu_active_item
+#menu_active_item
 {
 	float: left;
 	background-color: #864;
@@ -54,7 +54,7 @@ div#menu_active_item
 	padding: 5px;
 }
 
-div#menu_inactive_item
+#menu_inactive_item
 {
 	float: left;
 	background-color: #888;
@@ -72,4 +72,16 @@ div#menu_inactive_item
 
 #product_table tr{
 	padding: 10px;
+}
+
+#order_table td {
+	border-style: solid;
+	padding: 5px;
+	height: 50px;
+	width: 100px;
+}
+
+#order_table th {
+	border-style: solid;
+	padding: 5px;
 }
