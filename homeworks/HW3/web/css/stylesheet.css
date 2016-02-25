@@ -1,0 +1,128 @@
+body{
+	background-color: #FFC;
+	color: #FFF;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+header{
+	margin-left: 25px;
+	width: 843px;
+	height: 200px;
+	float: left;
+	position: relative;
+	z-index: 100;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+}
+
+.title{
+	width: 573px;
+	height: 150px;
+	float: left;
+	position: relative;
+}
+
+.social_links{
+	width: 120px;
+	height: 30px;
+	float: left;
+	position: relative;
+	margin-top: 60px;
+}
+
+.fb_link{
+	width: 30px;
+	height: 30px;
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+.twitter_link{
+	width: 30px;
+	height: 30px;
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+.instagram_link{
+	width: 30px;
+	height: 30px;
+	float: left;
+	position: relative;
+}
+
+aside{
+	width: 175px;
+	color: #A2A2A2;
+	float: left;
+	position: relative;
+}
+
+.menu ul {
+	display: block;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.menu li {
+	list-style: none;
+	list-style-position: outside;
+	padding-bottom: 10px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #90B;
+}
+
+section{
+	width: 693px;
+	height: 400px;
+	background-color: #663;
+	float: left;
+	position: relative;
+	border: 2px;
+	border-color: #000;
+	border-style: solid;
+}
+
+.inner_title{
+	font-size: 26px;
+	padding-left: 38px;
+	line-height: 60px;
+	color: #FFD;
+}
+
+.inner_content{
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 18px;
+}
+
+.attraction_figure{
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+.attraction_table td{
+	padding-top: 20px;
+	padding-left: 45px;
+	width: 300px;
+}
+
+.interactive_map{
+	width: 693px;
+	height: 400px;
+	background-color: #FFC;
+	float: left;
+	position: relative;
+}
