@@ -39,41 +39,57 @@
 			<tr>
 				<td>CherryChoc</td>
 				<td>$2.50</td>
-				<td><input type="number" id="cherrychoc_quantity" min="1" max="99"></td>
-				<td><div id="cherrychoc_total"></div></td>
+				<td>
+					<input type="button" onclick="decreaseCherryChocQuantity(document)" value="-">
+					<output id="cherrychoc_quantity">0</output>
+					<input type="button" onclick="increaseCherryChocQuantity(document)" value="+">
+				</td>
+				<td>$<output id="cherrychoc_total">0.00</td>
 			</tr>
 			<tr>
 				<td>Gluttony</td>
 				<td>$4.00</td>
-				<td><input type="number" id="gluttony_quantity" min="1" max="99"></td>
-				<td><div id="gluttony_total"></div></td>
+				<td>
+					<input type="button" onclick="decreaseGluttonyQuantity(document)" value="-">
+					<output id="gluttony_quantity">0</output>
+					<input type="button" onclick="increaseGluttonyQuantity(document)" value="+">
+				</td>
+				<td>$<output id="gluttony_total">0.00</div></td>
 			</tr>
 			<tr>
 				<td>Love</td>
 				<td>$3.00</td>
-				<td><input type="number" id="love_quantity" min="1" max="99"></td>
-				<td><div id="love_total"></div></td>
+				<td>
+					<input type="button" onclick="decreaseLoveQuantity(document)" value="-">
+					<output id="love_quantity">0</output>
+					<input type="button" onclick="increaseLoveQuantity(document)" value="+">
+				</td>
+				<td>$<output id="love_total">0.00</div></td>
 			</tr>
 			<tr>
 				<td>Spam</td>
 				<td>$2.00</td>
-				<td><input type="number" id="spam_quantity" min="1" max="99"></td>
-				<td><div id="spam_total"></div></td>
+				<td>
+					<input type="button" onclick="decreaseSpamQuantity(document)" value="-">
+					<output id="spam_quantity">0</output>
+					<input type="button" onclick="increaseSpamQuantity(document)" value="+">
+				</td>
+				<td>$<output id="spam_total">0.00</div></td>
 			</tr>
 			<tr>
 				<th colspan="3">Subtotal</th>
-				<td><div id="subtotal"></div></td>
+				<td>$<output id="subtotal">0.00</div></td>
 			</tr>
 			<tr>
 				<th colspan="3">Tax ( 7% )</th>
-				<td><div id="tax"></div></td>
+				<td>$<output id="tax">0.00</div></td>
 			</tr>
 			<tr>
 				<th colspan="3">Total</th>
-				<td><div id="total"></div></td>
+				<td>$<output id="total">0.00</div></td>
 			</tr>
 			<tr>
-				<th colspan="4"><input type="button" onclick="updateOrder(document)" value="Update Order"></th>
+				<th colspan="4"><input type="button" onclick="checkoutOrder(document)" value="Checkout"></th>
 			</tr>
 		</table>
 		</form>
