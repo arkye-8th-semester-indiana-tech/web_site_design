@@ -1,10 +1,10 @@
 ## Arkye's LaTeX Structure Makefile ##
 
 # Output Name
-TARGET = JonathanMoraes_WebSiteDesign_LAB04_07
+TARGET = JonathanMoraes_WebSiteDesign_LAB04_12
 
 # LaTeX Project Settings
-MAIN_DIR = LAB04_07
+MAIN_DIR = LAB04_12
 MAIN_NAME = main
 MAIN_FILE = main.tex
 
